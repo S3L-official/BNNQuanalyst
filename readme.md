@@ -23,7 +23,7 @@ cd build; make
 ```
 Then, BNNQuanalyst can be found under the project source folder.
 
-### Usage
+## Usage
 You can print the help information by option `-h`: 
 ```
 ./BNNQuanalyst -h
@@ -68,3 +68,13 @@ BNNQuanalyst also implements three another engine "cudd-npaq", "npaq-cudd" and "
 - npaq-sylvan: same as npaq-cudd, except that it uses `Sylvan` package.
 
 User can also explicitly set different sizes of the nodes table and the operation cache for `Sylvan` usage via function `sylvan_set_sizes()`.
+
+## Publications
+
+If you use BNNQuanalyst, please kindly cite our papers:
+
+- Zhang, Y., Zhao, Z., Chen, G., Song, F., Chen, T.: BDD4BNN: A BDD-based quantitative analysis framework for binarized neural networks. In: Proceedings of the 33rd International Conference on Computer Aided Verification, 2021.
+- Zhang, Y., Zhao, Z., Chen, G., Song, F., Chen, T.: Precise quantitative analysis of binarized neural networks: A bdd-based approach. ACM Transactions on Software Engineering and Methodology, 2023.
+
+
+
