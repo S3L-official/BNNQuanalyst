@@ -1,4 +1,4 @@
-#BNNQuanalyst
+# BNNQuanalyst
 
 This is the repository of the BNN quantitative verifier "BNNQuanalyst", which is introduced in paper "Precise Quantitative Analysis of Binarized Neural Networks: A BDD-based Approach".
 
