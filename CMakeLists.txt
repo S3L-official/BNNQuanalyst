@@ -19,8 +19,6 @@ add_subdirectory(libs/libsCUDD)
 add_subdirectory(sylvan-master)
 add_subdirectory(libs/libsBNNQuanalyst)
 
-#set(CMAKE_BUILD_RPATH /build)
-set(CMAKE_INSTALL_RPATH /build)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR})
 
 add_executable(BNNQuanalyst main.cpp)
