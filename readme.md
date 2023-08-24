@@ -63,7 +63,7 @@ BNN Models, inputs and query files to verify must be put in the folder "./benchm
 Note that, for the PI_explain and EF_explain queries, BNNQuanalyst will output the analysis results into folders "./outputs/PI_explain" and "./outputs/EF_explain" respectively.
 
 BNNQuanalyst also implements three another engine "cudd-npaq", "npaq-cudd" and "npaq-sylvan" for the comparison (target_robustness query type only):
-- cudd-npaq: BNNQuanalyst encodes each verification task into a CNF file, and users can use other model counting tools (e.g., Approxmc) on it. Such CNF files are exported to folder "./outputs/CNFSets_CUDD"";
+- cudd-npaq: BNNQuanalyst encodes each verification task into a CNF file, and users can use other model counting tools (e.g., Approxmc) on it. Such CNF files are exported to folder "./outputs/CNFSets_CUDD";
 - npaq-cudd: BNNQuanalyst first reads cnf files from folder "./benchmarks/CNFSets", then encode it into a BDD, and finally count the minterm (using `CUDD` package);
 - npaq-sylvan: same as npaq-cudd, except that it uses `Sylvan` package.
 
