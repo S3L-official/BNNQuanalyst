@@ -1,0 +1,6 @@
+# This query file is an example of computation of maximal safe hamming distance
+# Currently, it only supports compute maximal safe HD for the prediction class
+# compute_SD: <model_folder_name, input_file_name, hamming_distance, tolerance>
+
+compute_SD: <mnist_bnn_1_blk_100_100_10,instance_1_100,3,0>;
+compute_SD: <mnist_bnn_1_blk_100_100_10,instance_1_100,3,0.03>;

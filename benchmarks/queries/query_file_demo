@@ -1,0 +1,9 @@
+# This is query demo
+
+target_robustness: <mnist_bnn_2_blk_100_50_20_10,instance_0_100,hamming,3,target_10_class>;
+compute_SD: <mnist_bnn_1_blk_100_100_10,instance_1_100,3,0>;
+PI_explain: <mnist_bnn_4_blk_784_50_50_50_50_10,instance_8_784,hamming,2,target_10_class,100>;
+PI_explain: <mnist_bnn_4_blk_784_50_50_50_50_10,instance_9_784,hamming,2,target_10_class,100>;
+EF_explain: <mnist_bnn_4_blk_784_50_50_50_50_10,instance_0_784,set,fixed-set-file-10-up,target_10_class>;
+EF_explain: <mnist_bnn_4_blk_784_50_50_50_50_10,instance_1_784,set,fixed-set-file-10-up,target_10_class>;
+

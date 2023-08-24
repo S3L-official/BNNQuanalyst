@@ -1,0 +1,8 @@
+# This query file is an example of adversarial robustness/target robustness query w.r.t input regions with fixed indices
+
+# target_robustness: <model_folder_name, input_file_name, set, fixed_set_file_name, target_class_file_name>
+target_robustness: <fashionmnist_bnn_1_blk_100_100_10,instance_4_100,set,fixed_set_file_random_100_10,target_2_class>; # target 2 classes
+target_robustness: <fashionmnist_bnn_1_blk_100_100_10,instance_5_100,set,fixed_set_file_random_100_10,target_5_class>; # target 5 classes
+target_robustness: <fashionmnist_bnn_1_blk_100_100_10,instance_6_100,set,fixed_set_file_random_100_10,target_10_class>; # target 10 classes
+target_robustness: <fashionmnist_bnn_1_blk_100_100_10,instance_ID1422_100,set,fixed_set_file_random_100_10,target_10_class>; # target 10 classes
+

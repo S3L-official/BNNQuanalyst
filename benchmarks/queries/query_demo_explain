@@ -1,0 +1,7 @@
+# This query file is an example of essential features and prime implicant explanations.
+
+# EF_explain: <model_folder_name, input_file_name, hamming/set, hamming_distance/fixed_set_file_name,target_class_file_name>
+EF_explain: <mnist_bnn_4_blk_784_50_50_50_50_10,instance_0_784,hamming,4,target_10_class>;
+
+# PI_explain: <model_folder_name, input_file_name, hamming/set, hamming_distance/fixed_set_file_name,target_class_file_name,number_of_cover_found_by_cudd>
+PI_explain: <mnist_bnn_4_blk_784_50_50_50_50_10,instance_3_784,set,fixed-set-file-28-up,target_10_class,10>;

@@ -1,0 +1,7 @@
+# This query file is an example of adversarial robustness/target robustness query w.r.t input regions with hamming distance
+
+# target_robustness: <model_folder_name, input_file_name, set, hamming, hamming_distance, target_class_file_name>
+target_robustness: <mnist_bnn_1_blk_100_50_10,instance_7_100,hamming,2,target_2_class>;  # target 2 classes
+target_robustness: <mnist_bnn_1_blk_100_50_10,instance_8_100,hamming,2,target_5_class>;  # target 5 classes
+target_robustness: <mnist_bnn_1_blk_100_50_10,instance_9_100,hamming,2,target_10_class>;  # target 10 classes
+target_robustness: <mnist_bnn_1_blk_100_50_10,instance_ID6247_100,hamming,2,target_10_class>;  # target 10 classes
