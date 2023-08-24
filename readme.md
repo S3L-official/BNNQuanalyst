@@ -56,7 +56,7 @@ BNN Models, inputs and query files to verify must be put in the folder "./benchm
 - Verify the queries written in the file "./benchmarks/queries/query_file_demo" using `CUDD` package:
   
   `./BNNQuanalyst -v -q query_file_demo -IP 1 -DC 1 -e cudd`
-- Verify the queries written in the same file using 'Sylvan' package with 10 threads under Level 2 (L2) parallelization strategy:
+- Verify the queries written in the same file using `Sylvan` package with 10 threads under Level 2 (L2) parallelization strategy:
 
   `./BNNQuanalyst -v -q query_file_demo -IP 1 -DC 1 -e sylvan -l 2 -th 10`
 
