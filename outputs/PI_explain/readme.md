@@ -1,3 +1,3 @@
-### This is the folder for the output of PI_explain by BNNQuanalyst.
+### This is the folder for the (prime) implicants exported by BNNQuanalyst.
 
 
