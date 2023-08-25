@@ -123,7 +123,7 @@ void QE_SDComputerSylvan::solve() {
                 if (rightRatio >= 1 - tole) {
                     struct timeb tmb2;
                     ftime(&tmb2);
-                    cout << "We find a safe distance:" << SD << endl << endl;
+                    cout << "We find a safe distance: " << SD << endl << endl;
                     cout << "Solving done. "
                          << ((tmb2.time - tmb1.time) + (tmb2.millitm - tmb1.millitm) / 1000.0)
                          << " seconds" << endl << endl;
