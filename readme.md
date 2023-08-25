@@ -76,3 +76,6 @@ If you use BNNQuanalyst, please kindly cite our papers:
 - Zhang, Y., Zhao, Z., Chen, G., Song, F., Chen, T.: BDD4BNN: A BDD-based quantitative analysis framework for binarized neural networks. In: Proceedings of the 33rd International Conference on Computer Aided Verification, 2021.
 - Zhang, Y., Zhao, Z., Chen, G., Song, F., Chen, T.: Precise quantitative analysis of binarized neural networks: A bdd-based approach. ACM Transactions on Software Engineering and Methodology, 2023.
 
+Some related works (verification of Quantized Neural Networks) can also be found in our other papers:
+- Zhang, Y., Zhao, Z., Chen, G., Song, F., Zhang, M., Chen, T., Sun, J.: QVIP: An ILP-based formal verification approach for quantized neural networks. In: Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering, 2022.
+- Zhang, Y., Song, F., Sun, J.: QEBVerif: Quantization Error Bound Verification of Neural Networks. In: Proceedings of the 35th International Conference on Computer Aided Verification, 2023.
