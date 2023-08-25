@@ -11,7 +11,7 @@ In this paper, we make the following main contributions:
 ## Quick Start
 
 ### Dependencies
-BNNQuanlyast uses [Sylvan](https://github.com/utwente-fmt/sylvan) as one of the BDD packages, and `GMP` library (e.g., `libgmp-dev`)
+BNNQuanalyst uses [Sylvan](https://github.com/utwente-fmt/sylvan) as one of the BDD packages, and `GMP` library (e.g., `libgmp-dev`)
  is required.
 
 ### Build the tool
