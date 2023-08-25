@@ -1,3 +1,3 @@
-### This is the folder for the output of CNF encoded by BNNQuanalyst.
+### This is the folder for the CNF encoded by BNNQuanalyst.
 
 
